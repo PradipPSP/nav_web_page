@@ -1,0 +1,238 @@
+/* google fonts oswals */
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Monsieur+La+Doulaise&family=Oswald:wght@200..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Doto:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* nav design starts here */
+
+#navbar{
+    position: sticky;
+    top: 0px;
+}
+
+#container{
+    max-width: 99%;
+    height:60px;
+    background-color: #639e63;
+    margin: 0 auto;
+    margin-top: 5px;
+
+    display: flex;
+    justify-content: space-between;
+
+} 
+
+/* profile design starts here */
+
+#profile{
+    width:33%;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 5px;
+    top: 25px;
+}
+
+#profile > img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;  
+}
+
+/* profile banner design starts here */
+
+#profile_banner{
+    width:33%;
+    text-align: center;
+    margin-top: 5px;
+    margin-right: 20px;
+    top: 25px;
+}
+
+#profile_banner > img{ 
+    width: 50px;
+    height: 50px;
+}
+
+/* nav menu starts here */
+
+#nav_menu {
+    width:33%;
+    text-align: right;
+    margin-top: 5px;
+    margin-right: 20px;
+    top: 25px;
+}
+
+#nav_menu ul li{
+    list-style-type: none;
+    float: right;
+    margin: 10px;
+}
+
+#nav_menu ul li a {
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-family: "Oswald", serif;
+    color: khaki;
+    text-align: center;
+    opacity: 0.8;
+}
+
+#nav_menu ul li a:hover{
+    text-decoration: overline;
+    opacity: 1;
+}
+
+/* nav design ends here */
+
+
+/* Banner design starts here */
+
+#banner{
+    max-width: 99%;
+    margin: 0 auto;
+}
+
+#banner_img > img {
+    width: 100%;
+}
+
+/* Banner design ends here */
+
+
+
+/* font-family starts here */
+
+#font-family{
+    max-width: 99%;
+    height: 300px;
+    margin: 0 auto;
+    background-color: aquamarine;
+    padding: 10px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#font_1{
+    width: 33%;
+    height: auto;
+    background-color: white;
+    padding: 15px;  
+    margin-right: 20px; 
+
+    border: 1px solid darksalmon;
+    border-radius: 50px 0px 50px 0px;
+}
+
+h2{
+    font-family: "Doto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+p{
+    text-align: justify;
+    font-weight: 500;
+}
+
+#font_2{
+    width: 33%;
+    height: auto;
+    background-color: white;
+    padding: 15px;  
+    margin-right: 20px; 
+
+    border: 1px solid darksalmon;
+    border-radius: 50px 0px 50px 0px;
+}
+
+#font_3{
+    width: 33%;
+    height: auto;
+    background-color: white;
+    padding: 15px;  
+    /* margin-right: 20px;  */
+
+    border: 1px solid darksalmon;
+    border-radius: 0px 50px 0px 50px;
+}
+
+span {
+    font-size: 1.5rem;
+    color: burlywood;
+  }
+
+/* font-family ends here */
+
+/* footer design starts  */
+
+#footer{
+    max-width: 99%;
+    height: auto;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: darkolivegreen;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+#restrict{
+    width: 33%;
+    text-align: center;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+#restrict >p{
+    text-align: center;
+    color: aliceblue;
+}
+
+#social{
+    width: 33%;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+#social > p{
+    text-align: center;
+}
+#social > p> a{
+    padding: 15px;
+    color: white;   
+}
+
+
+#home{
+    width: 33%;
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 50px;
+}
+
+#home > p{
+    text-align: center;
+    
+}
+
+#home > p > a{
+    color: white;    
+}
+/* footer design ends  */
